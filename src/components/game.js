@@ -10,7 +10,7 @@ export default function Game(props) {
 		<div className="game">
 			<Header title={props.title} />
 			<LiveGuess />
-			<GuessHistory />
+			<GuessHistory oldGuess="18"/>
 			<Restart />
 		</div>
 	);

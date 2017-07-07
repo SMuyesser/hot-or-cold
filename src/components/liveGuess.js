@@ -10,7 +10,7 @@ export default function LiveGuess(props) {
 		<div className="liveGuess">
 			<MysteryNum />
 			<GuessInfo />
-			<YourGuess />
+			<YourGuess guess="18"/>
 		</div>
 	);
 }

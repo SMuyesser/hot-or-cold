@@ -7,8 +7,7 @@ export default function GuessHistory(props) {
 		<div className="guessHistory">
 			<h2>Guess History</h2>
 			<ul>
-				<li>00</li>
-				<li>01</li>
+				<li>{props.oldGuess}</li>
 			</ul>
 		</div>
 	);
