@@ -4,17 +4,6 @@ import './index.css';
 import Game from '../src/components/game.js'
 
 ReactDOM.render(
-	<Game />, 
+	<Game title="Hot Or Cold"/>, 
 	document.getElementById('root')
 );
-
-
-/*
--overall display
--number to be guessed
--current guess
--guess history
--guess count
--feedback (hot or cold)
--new game/restart
-*/

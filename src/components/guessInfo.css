@@ -1,0 +1,4 @@
+.guessInfo {
+	display: flex;
+	flex-direction: column;
+}

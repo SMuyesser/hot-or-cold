@@ -1,0 +1,14 @@
+.mysteryNum {
+	color: #730C02;
+	width: 30%;
+	height: 200px;
+	display: inline-block;
+	border: 2px solid #D90416;
+	background-color: #CCD6D9;
+	text-align: center;
+}
+
+.mysteryNum h1 {
+	font-size: 5em;
+	margin: 0;
+}
