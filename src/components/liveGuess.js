@@ -9,8 +9,9 @@ export default function LiveGuess(props) {
 	return (
 		<div className="liveGuess">
 			<MysteryNum />
-			<GuessInfo />
-			<YourGuess guess="18"/>
+			<GuessInfo feedback={props.feedback}
+				count={props.count}/>
+			<YourGuess onGuess={props.onGuess}/>
 		</div>
 	);
 }

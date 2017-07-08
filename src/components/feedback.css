@@ -4,12 +4,12 @@
 	height: 50px;
 	margin-top: auto;
 	margin-bottom: auto;
-	font-size: 2em;
+	font-size: 1.5em;
 	color: #730C02;
 	border: 2px solid #D90416;
 	background-color: #CCD6D9;
 	width: 100%;
-	padding: 3.5px;
+	padding: 5px;
 }
 
 .feedback p {

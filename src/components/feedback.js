@@ -5,7 +5,7 @@ import './feedback.css';
 export default function Feedback(props) {
 	return (
 		<div className="feedback">
-			<p>{props.temp}</p>
+			<p>{props.feedback}</p>
 		</div>
 	);
 }
