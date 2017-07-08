@@ -2,3 +2,19 @@
 	text-align: center;
 	color: white;
 }
+
+button {
+	box-shadow: rgb(245, 151, 142) 0px 1px 0px 0px inset; 
+	background: linear-gradient(rgb(242, 69, 55) 5%, rgb(198, 45, 31) 100%) rgb(242, 69, 55); 
+	border-radius: 6px; 
+	border: 1px solid rgb(208, 39, 24); 
+	display: inline-block; 
+	cursor: pointer; 
+	color: rgb(255, 255, 255); 
+	font-family: Arial; 
+	font-size: 15px; 
+	font-weight: bold; 
+	padding: 6px 24px; 
+	text-decoration: none; 
+	text-shadow: rgb(129, 14, 5) 0px 1px 0px;
+}
