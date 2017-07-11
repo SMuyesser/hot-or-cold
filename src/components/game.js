@@ -31,6 +31,12 @@ export default class Game extends React.Component {
 			});
 			return;
 		}
+		else if (this.state.guesses.includes(guess)) {
+			this.setState({
+				feedback: guess + ' already guessed'
+			});
+			return;
+		}
 
 		const difference = Math.abs(guess - this.state.answer);
 
@@ -59,9 +65,9 @@ export default class Game extends React.Component {
 				<Header />
 				<LiveGuess feedback={this.state.feedback}
 					onGuess={(guess) => this.guess(guess)}
-					count={this.state.guesses.length} />
+					count={this.state.guesses.length + 1} />
 				<GuessHistory guesses={this.state.guesses}/>
-				<Restart />
+				<Restart onClick={e => this.newGame()}/>
 			</div>
 		);
 	}

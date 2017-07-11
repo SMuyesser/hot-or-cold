@@ -15,7 +15,7 @@ export default class YourGuess extends React.Component {
 	render() {
 		return (
 			<div className="yourGuess">
-				<h2>Your Guess (1-100)</h2>
+				<h2>Your Guess</h2>
 				<form onSubmit={e => this.onGuess(e)}>
 					<input type="text" name="number" maxLength="3" autoComplete="off" placeholder="00" ref={input => this.input = input} />
 					<button>Submit</button>

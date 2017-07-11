@@ -5,7 +5,7 @@ import './restart.css';
 export default function Restart(props) {
 	return (
 		<div className="restart">
-			<button>Restart Game</button>
+			<button onClick={props.onClick}>Restart Game</button>
 		</div>
 	);
 }
